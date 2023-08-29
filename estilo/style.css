@@ -1,0 +1,66 @@
+/* Resetando os estilo da pagina*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Cor de Fundo */
+body {
+    background-color: #000000;
+    
+}
+
+/*Centralizando o login na tela */
+.area_login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Ajustando o login */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+/*Estilização do formulario */
+.login .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #353535;
+    border: 2px solid #C5C2C2;
+    height: 57px;
+    width: 466px;
+    border-radius: 4px;
+    padding: 0 3%;
+    
+}
+
+.login label{
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/*Estilo do botão enviar */
+.login .enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2FB23C;
+    color: #FFFFFF;
+    height: 67px;
+    width: 191px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+
